@@ -22,5 +22,5 @@ def oddTuples(aTup):
     #returns tuple new_tuple        
     return new_tuple
 
-#test tuple that fails, 
+#test tuple that fails, should return 17, 1, 13, 0, 4
 oddTuples((17, 9, 1, 0, 13, 8, 0, 20, 4, 17))
