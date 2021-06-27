@@ -4,9 +4,7 @@ new_tuple = ()
 
 for i, v in enumerate(oddTuples):
     
-    if i == 0:
-        new_tuple = new_tuple + (v,)
-    elif i % 2 == 0:
+    if i % 2 == 0:
         new_tuple = new_tuple + (v,)
         print(i, v)
 
